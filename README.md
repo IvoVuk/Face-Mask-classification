@@ -9,16 +9,17 @@ _______________________________________________________________________________
 ## This project consists of the following activities :
 ### Phase 1 : Dataset
 - General Project Research  
+_________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
 
--  with_mask young people: 775 images
--  with_mask old people: 685 images
--  without_mask young people: 756 images
--  without_mask old people: 724 images
+with_mask young people: 775 images  
+with_mask old people: 685 images  
+without_mask young people: 756 images  
+without_mask old people: 724 images  
 
 The images used were real images of faces wearing masks and faces without masks.
-
+_____________________________________________________________________________________
 - Dataset Preparation  
 
 We expand the size of a training dataset by creating modified versions of images in the dataset 
