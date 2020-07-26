@@ -32,5 +32,14 @@ split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1)
 
 ### Phase 2 : Training
 - Research about neural networks  
+
+To solve this problem, we propose a method for classification through transfer learning with several Keras models.   
+MobileNetV2 trained in ImageNet  - 50 epoch Accuracy 91,00 %  
+Xception model trained in ImageNet   - 100 epoch with Accuracy 95,97%  
+DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%   
+The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%
+__________________________________________________________________________________________________
 - Compose neural network architectures  
+___________________________________________________________________________________________________
 - Fine tunning the model 
+___________________________________________________________________________________________________
