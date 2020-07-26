@@ -34,10 +34,13 @@ split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1)
 - Research about neural networks  
 
 To solve this problem, we propose a method for classification through transfer learning with several Keras models.   
--  MobileNetV2 trained in ImageNet  - 50 epoch Accuracy 91,00 %  
--  Xception model trained in ImageNet   - 100 epoch with Accuracy 95,97%  
+-  MobileNetV2 trained in ImageNet  - 50 epoch Accuracy 91,00 % 
+-  Xception model trained in ImageNet   - 100 epoch with Accuracy 95,97% 
+   -   Used Data Augmentation and fine tunning with freeze layers
 -  DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  
-
+__________________________________________________________________________________________________
+- Compose neural network architectures  
+Best results was achieved with DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%    
 The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%
 ```
  precision    recall  f1-score   support
@@ -52,8 +55,7 @@ The experimental results show that transfer learning can achieve very good resul
 weighted avg       0.97      0.97      0.97       297
  samples avg       0.97      0.97      0.97       297
 ```
-__________________________________________________________________________________________________
-- Compose neural network architectures  
 ___________________________________________________________________________________________________
 - Fine tunning the model 
+The model was fine tunned with GlobalAveragePooling2D which acts like regularizer.  
 ___________________________________________________________________________________________________
