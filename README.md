@@ -56,6 +56,6 @@ weighted avg       0.97      0.97      0.97       297
  samples avg       0.97      0.97      0.97       297
 ```
 ___________________________________________________________________________________________________
-- Fine tunning the model 
+- Fine tunning the model   
 The model was fine tunned with GlobalAveragePooling2D which acts like regularizer.  
 ___________________________________________________________________________________________________
