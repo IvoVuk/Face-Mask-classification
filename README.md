@@ -6,7 +6,7 @@
 _______________________________________________________________________________
 ![MaskYoung](MaskYoung.jpg)  
 ![NoMaskYoung](NoMaskYoung.jpg) 
-## This project consists of the following activities :
+## Project was divided in 3 Phases:
 ### Phase 1 : Dataset
 - General Project Research  
 _________________________________________________________________________________
