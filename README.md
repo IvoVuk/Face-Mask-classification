@@ -8,10 +8,26 @@ _______________________________________________________________________________
 ![NoMaskYoung](NoMaskYoung.jpg) 
 ## This project consists of the following activities :
 ### Phase 1 : Dataset
-- Team Planning  
 - General Project Research  
 - Dataset Collection  
+This dataset consists of 2940 images belonging to four classes in four folders:
+
+-  with_mask young people: 775 images
+-  with_mask old people: 685 images
+-  without_mask young people: 756 images
+-  without_mask old people: 724 images
+
+The images used were real images of faces wearing masks and faces without masks.
+
 - Dataset Preparation  
+
+We expand the size of a training dataset by creating modified versions of images in the dataset 
+Dataset was divided on train 80% /test 10% /valid 10% folders with python code   
+with use split-folder library  
+```
+import split_folders
+split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
+```
 
 ### Phase 2 : Training
 - Research about neural networks  
