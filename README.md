@@ -1,4 +1,5 @@
-# Face-Mask-classification
+# Face-Mask-classification [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+-  using (OpenCV, Keras/TensorFlow, and Deep Learning)
 ### Model that will recognize whether a person wear a mask on his face or not / young or old person 
 - The goal of your project is to create a robust classifier, to collect data and prepare custom dataset.  
 - You will build a model that will recognize whether a person wear a mask on his face or not.  
