@@ -39,6 +39,19 @@ To solve this problem, we propose a method for classification through transfer l
 -  DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  
 
 The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%
+```
+ precision    recall  f1-score   support
+
+           0       0.96      0.94      0.95        71
+           1       0.95      0.96      0.95        77
+           2       0.97      0.99      0.98        72
+           3       0.99      0.99      0.99        77
+
+   micro avg       0.97      0.97      0.97       297
+   macro avg       0.97      0.97      0.97       297
+weighted avg       0.97      0.97      0.97       297
+ samples avg       0.97      0.97      0.97       297
+```
 __________________________________________________________________________________________________
 - Compose neural network architectures  
 ___________________________________________________________________________________________________
