@@ -8,7 +8,7 @@ _______________________________________________________________________________
 ![MaskYoung](Prediction/MaskYoung.jpg)  
 ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 ## Project was divided in 3 Phases:
-### Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
+## Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research  
 _________________________________________________________________________________
 - Dataset Collection  
@@ -31,7 +31,7 @@ import split_folders
 split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
 ```
 
-### Phase 2 : Training
+## Phase 2 : Training
 - Research about neural networks  
 
 To solve this problem, we propose a method for classification through transfer learning with several Keras models.   
@@ -40,7 +40,7 @@ To solve this problem, we propose a method for classification through transfer l
    -   Used Data Augmentation and fine tunning with freeze layers
 -  DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  
 __________________________________________________________________________________________________
-- Compose neural network architectures  
+### Compose neural network architectures  
 Best results was achieved with DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
 The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%
 ```
@@ -57,6 +57,11 @@ weighted avg       0.97      0.97      0.97       297
  samples avg       0.97      0.97      0.97       297
 ```
 ___________________________________________________________________________________________________
-- Fine tunning the model   
+### Fine tunning the model
 The model was fine tunned with GlobalAveragePooling2D which acts like regularizer.  
 ___________________________________________________________________________________________________
+
+## Phase 3 : Detection in real-time video streams
+
+We use our model in real-time video streams as FaceMask detector 
+-  Files contained in  "FaceMask_detect_video.zip"
