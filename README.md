@@ -5,8 +5,8 @@
 - You will build a model that will recognize whether a person wear a mask on his face or not.  
 - Furthermore, the system needs to recognize whether a person is young or old. 
 _______________________________________________________________________________
-![MaskYoung](MaskYoung.jpg)  
-![NoMaskYoung](NoMaskYoung.jpg) 
+![MaskYoung](Prediction/MaskYoung.jpg)  
+![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 ## Project was divided in 3 Phases:
 ### Phase 1 : Dataset
 - General Project Research  
