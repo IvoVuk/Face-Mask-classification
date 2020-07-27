@@ -8,7 +8,7 @@ _______________________________________________________________________________
 ![MaskYoung](Prediction/MaskYoung.jpg)  
 ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 ## Project was divided in 3 Phases:
-### Phase 1 : Dataset (Dataset is avaliable for download [here].(https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing)
+### Phase 1 : Dataset (Dataset is avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing)
 - General Project Research  
 _________________________________________________________________________________
 - Dataset Collection  
