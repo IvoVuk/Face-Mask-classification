@@ -8,7 +8,7 @@ _______________________________________________________________________________
 ![MaskYoung](Prediction/MaskYoung.jpg)  
 ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 ## Project was divided in 3 Phases:
-### Phase 1 : Dataset (Dataset is avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing)
+### Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing)
 - General Project Research  
 _________________________________________________________________________________
 - Dataset Collection  
@@ -41,7 +41,7 @@ To solve this problem, we propose a method for classification through transfer l
 -  DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  
 __________________________________________________________________________________________________
 - Compose neural network architectures  
-Best results was achieved with DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%    
+Best results was achieved with DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)  
 The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%
 ```
  precision    recall  f1-score   support
