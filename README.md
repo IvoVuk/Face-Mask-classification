@@ -1,6 +1,8 @@
 # Face-Mask-classification [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 -  using (OpenCV, Keras/TensorFlow, and Deep Learning)
+
 With the latest developments due to the covid pandemic, and the way and lifestyle that is imposed by itself and the opportunities to improve the processes is exactly one of the motivations for this project that we present below.
+
 ### Model that will recognize whether a person wear a mask on his face or not / young or old person 
 - The goal of our project was to create a robust classifier, to collect data and prepare custom dataset.  
 - We built a model that recognizes whether a person wear a mask on his face or not.  
@@ -11,6 +13,7 @@ _______________________________________________________________________________
 ## Project was divided in 3 Phases:
 ## Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
+
 To train a deep learning model to classify whether a person is wearing a mask or not, we need to find a good dataset with a fair amount of images for both classes:
 * wearing a mask (old and young)
 * not wearing a mask (old and young)
@@ -18,11 +21,10 @@ One of the more difficult tasks we had with this project was collecting the data
 _________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
-
-with_mask young people: 775 images  
-with_mask old people: 685 images  
-without_mask young people: 756 images  
-without_mask old people: 724 images  
+| dataset         | Young       | Old          |      
+| -------------   | ------------| -------------|
+| with_mask       | 775         | 685          |
+| without_mask    | 756         | 724          |     
 
 The images used were real images of faces wearing masks and faces without masks.
 _____________________________________________________________________________________
