@@ -73,5 +73,5 @@ ________________________________________________________________________________
 ## Phase 3 : Detection in real-time video streams
 
 We use our model in real-time video streams as FaceMask detector 
-![MaskYoung](Prediction/FaceMask-Detection.gif)  
+![MaskYoung](Prediction/FaceMask-Detection.gif= 500x300)  
 -  Files contained in  "FaceMask_detect_video.zip"
