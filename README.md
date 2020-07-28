@@ -22,6 +22,7 @@ One of the more difficult tasks we had with this project was collecting the data
 _________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
+
 | dataset         | Young       | Old          |      
 | -------------   | ------------| -------------|
 | with_mask       | 775         | 685          |
