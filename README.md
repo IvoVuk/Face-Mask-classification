@@ -8,8 +8,10 @@ With the latest developments due to the covid pandemic, and the way and lifestyl
 - We built a model that recognizes whether a person wear a mask on his face or not.  
 - Furthermore, the model recognizes whether a person is young or old. 
 _______________________________________________________________________________
-![MaskYoung](Prediction/MaskYoung.jpg)  
-![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
+| Mask Young prediction       |  No Mask Young prediction   |
+:-------------------------:|:-------------------------:
+![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
+
 ## Project was divided in 3 Phases:
 ## Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
