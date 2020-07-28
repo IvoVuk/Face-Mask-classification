@@ -14,9 +14,11 @@ _______________________________________________________________________________
 ## Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
-To train a deep learning model to classify whether a person is wearing a mask or not, we need to find a good dataset with a fair amount of images for both classes:
-* wearing a mask (old and young)
-* not wearing a mask (old and young)
+To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find a good dataset with a fair amount of images for four classes:
+* wearing a mask_old
+* wearing a mask_young
+* not wearing a mask_old
+* not wearing a mask_young
 
 One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that was created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took.
 _________________________________________________________________________________
