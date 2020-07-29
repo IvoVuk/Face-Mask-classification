@@ -46,7 +46,7 @@ ________________________________________________________________________________
 
 We expand the size of a training dataset by creating modified versions of images in the dataset. 
 Dataset was divided on train 80% /test 10% /valid 10% folders with python code   
-with use split-folder library  
+with use of split-folder library  
 ```
 import split_folders
 split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
