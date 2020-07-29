@@ -5,7 +5,9 @@
 - The goal of our project was to create a robust classifier, to collect data and prepare custom dataset.  
 - We built a model that recognizes whether a person wear a mask on his face or not.  
 - Furthermore, the model recognizes whether a person is young or old. 
-_______________________________________________________________________________
+
+###Demo
+__________________________________________________________________________
 | Mask Young prediction       |  No Mask Young prediction   |
 :-------------------------:|:-------------------------:
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
