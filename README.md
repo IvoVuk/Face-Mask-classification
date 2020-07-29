@@ -1,17 +1,17 @@
 # Face-Mask-classification [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 -  using (OpenCV, Keras/TensorFlow, and Deep Learning)
 
-### Motivation
-Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for a real-time masked/unmasked face recognition in surveillance system to help the regulation of wearing mask in public places, such as shopping malls, supermarket, institutions, etc.
-
-We think that every person each individually should strive to contribute in his own way to suppress the spread of KOVID19, and putting an end to the pandemic.
-
-Well, this is our way of contribution :smile:.
-
 ### Model that will recognize whether a person wears a mask on his face or not / young or old person 
 - The goal of our project was to create a robust classifier, to collect data and prepare custom dataset.  
 - We built a model that recognizes whether a person wear a mask on his face or not.  
 - Furthermore, the model recognizes whether a person is young or old. 
+
+### Motivation
+Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for a real-time masked/unmasked face recognition in surveillance system to help the regulation of wearing mask in public places, such as shopping malls, supermarket, institutions, etc.
+
+We think that every person each individually should strive to contribute in his own way to suppress the spread of Covid-19, and putting an end to the pandemic.
+
+Well, this is our way of contribution :smile:.
 
 ### Demo
 __________________________________________________________________________
@@ -20,16 +20,16 @@ __________________________________________________________________________
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 
 ## Project was divided in 3 Phases:
-## Phase 1 : Dataset (avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
+## Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
-To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find a good dataset with a fair amount of images for four classes:
+To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find an appropriate dataset with a fair amount of images for four classes:
 * wearing a mask_old
 * wearing a mask_young
 * not wearing a mask_old
 * not wearing a mask_young
 
-One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that was created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took.
+One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that was created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real atuhentic dataset and we are very proud for the effort.
 _________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
