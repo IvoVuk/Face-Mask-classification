@@ -91,7 +91,7 @@ ________________________________________________________________________________
 
 We use our model in real-time video streams as FaceMask detector 
 ![MaskYoung](Prediction/FaceMask-Detection.gif)  
--  Files contained in  "FaceMask_detect_video.zip"
+-  Files contained in  "FaceMask_detect_video.zip" (avaliable for download [here](https://github.com/IvoVuk/Face-Mask-classification/blob/master/FaceMask_detect_video.zip))
 
 ### :clap: Authors
 This project is to fulfill final assignment of Brainster Data Science Academy
