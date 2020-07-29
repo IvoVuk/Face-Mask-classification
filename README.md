@@ -6,7 +6,7 @@
 - We built a model that recognizes whether a person wear a mask on his face or not.  
 - Furthermore, the model recognizes whether a person is young or old. 
 
-###Demo
+##Demo##
 __________________________________________________________________________
 | Mask Young prediction       |  No Mask Young prediction   |
 :-------------------------:|:-------------------------:
