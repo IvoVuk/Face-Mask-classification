@@ -99,11 +99,11 @@ This project is to fulfill final assignment of Brainster Data Science Academy
 Team members:
 
 * Ivan Vukelikj
-* Dimitar Mihajlov 
 * Teodora Zhivkovikj
-* Angela Vasovska 
+* Angela Vasovska
+* Dimitar Mihajlov
 * Nikola Nastev
 
 ### :star: Extra credits
 
-This project was supervized by https://github.com/kirilcvetkov92
+This project was supervized by [Kiril Cvetkov](https://github.com/kirilcvetkov92)
