@@ -34,10 +34,12 @@ ________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
 
-| dataset         | Young       | Old          |      
-| -------------   | ------------| -------------|
-| with_mask       | 775         | 685          |
-| without_mask    | 756         | 724          |     
+| dataset         | Young       | Old          | Total     |      
+| -------------   | ------------| -------------|-----------|
+| with_mask       | 775         | 685          | 1,460     |
+| without_mask    | 756         | 724          | 1,480     |   
+|-----------------|-------------|--------------|-----------|
+| Total           |1,531        |1,409         | 2,940     |
 
 The images used were real images of faces wearing masks and faces without masks.
 _____________________________________________________________________________________
@@ -89,3 +91,14 @@ ________________________________________________________________________________
 We use our model in real-time video streams as FaceMask detector 
 ![MaskYoung](Prediction/FaceMask-Detection.gif)  
 -  Files contained in  "FaceMask_detect_video.zip"
+
+### Authors
+This project is to fulfill final assignment of Brainster Data Science Academy
+
+Team member:
+
+* Ivan Vukelikj
+* Dimitar Mihajlov 
+* Teodora Zhivkovikj
+* Angela Vasovska 
+* Nikola Nastev
