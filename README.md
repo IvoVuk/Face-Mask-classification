@@ -2,9 +2,9 @@
 -  using (OpenCV, Keras/TensorFlow and Deep Learning)
 
 ### Model that will recognize whether a person wears a mask on his face or not / young or old person 
-- The goal of our project was to create a robust classifier, to collect data and prepare custom dataset.  
-- We built a model that recognizes whether a person wear a mask on his face or not.  
-- Furthermore, the model recognizes whether a person is young or old. 
+- The goal of our project was to create a robust classifier, to collect data and prepare custom dataset,
+- We built a model that recognizes whether a person wear a mask on his face or not,
+- Furthermore, the model recognizes whether a person is young or old
 
 ### :innocent: Motivation
 Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for real-time masked/unmasked face recognition in a surveillance system to help the regulation of wearing masks in public places, such as shopping malls, supermarkets, institutions, etc.
