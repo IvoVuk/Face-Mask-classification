@@ -6,7 +6,7 @@
 - We built a model that recognizes whether a person wear a mask on his face or not.  
 - Furthermore, the model recognizes whether a person is young or old. 
 
-### Motivation
+### :innocent: Motivation
 Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for a real-time masked/unmasked face recognition in surveillance system to help the regulation of wearing mask in public places, such as shopping malls, supermarket, institutions, etc.
 
 We think that every person each individually should strive to contribute in his own way to suppress the spread of Covid-19, and putting an end to the pandemic.
@@ -20,7 +20,7 @@ __________________________________________________________________________
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 
 ## The project was divided in 3 Phases:
-## Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
+## :open_file_folder: Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
 To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find an appropriate dataset with balanced amount of images for four classes:
@@ -52,7 +52,7 @@ import split_folders
 split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
 ```
 
-## Phase 2 : Training the model
+## :muscle: Phase 2 : Training the model
 - Research about neural networks  
 
 To solve this problem, we needed to try several image classifiers that classify one of four categories. To construct this classifier, we used pre-trained CNN.
@@ -64,11 +64,13 @@ The best results are as follows:
 | Xception - Used Data Augumentation     | 100           | 95.97%
 | DenseNet-169  | 100           | 96.98%       | 
 __________________________________________________________________________________________________
-### Compose neural network architectures  
+### :bulb: Compose neural network architectures  
 Best results were achieved with DenseNet-169 model trained in ImageNet  - 100 epoch; Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
 
 The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%.
 Other, also important reason for choosing this model, was the fact that this model showed best result at the very relevant metrics, recall and precision.
+
+#### :key: Results
 
 | Class         | precision     | recall       | f1-score    |     
 | ------------- | ------------- | -------------|------------ |
@@ -85,19 +87,23 @@ ________________________________________________________________________________
 The model was fine tunned with GlobalAveragePooling2D which acts like regularizer.  
 ___________________________________________________________________________________________________
 
-## Phase 3 : Detection in real-time video streams
+## :rocket: Phase 3 : Detection in real-time video streams
 
 We use our model in real-time video streams as FaceMask detector 
 ![MaskYoung](Prediction/FaceMask-Detection.gif)  
 -  Files contained in  "FaceMask_detect_video.zip"
 
-### Authors
+### :clap: Authors
 This project is to fulfill final assignment of Brainster Data Science Academy
 
-Team member:
+Team members:
 
 * Ivan Vukelikj
 * Dimitar Mihajlov 
 * Teodora Zhivkovikj
 * Angela Vasovska 
 * Nikola Nastev
+
+### :star: Extra credits
+
+Under the supervision of @KirilCvetkov https://github.com/kirilcvetkov92
