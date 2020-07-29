@@ -23,7 +23,7 @@ __________________________________________________________________________
 ## Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
-To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find an appropriate dataset with a fair amount of images for four classes:
+To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find an appropriate dataset with balanced amount of images for four classes:
 * wearing a mask_old
 * wearing a mask_young
 * not wearing a mask_old
