@@ -9,7 +9,7 @@
 ### :innocent: Motivation
 Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for a real-time masked/unmasked face recognition in surveillance system to help the regulation of wearing mask in public places, such as shopping malls, supermarket, institutions, etc.
 
-We think that every person each individually should strive to contribute in his own way to suppress the spread of Covid-19, and putting an end to the pandemic.
+We think that every person each individual should strive to contribute in his own way to suppress the spread of Covid-19, and putting an end to the pandemic.
 
 Well, this is our way of contribution :smile:
 
