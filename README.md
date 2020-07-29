@@ -7,7 +7,7 @@
 - Furthermore, the model recognizes whether a person is young or old. 
 
 ### :innocent: Motivation
-Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for a real-time masked/unmasked face recognition in surveillance system to help the regulation of wearing mask in public places, such as shopping malls, supermarket, institutions, etc.
+Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for real-time masked/unmasked face recognition in a surveillance system to help the regulation of wearing masks in public places, such as shopping malls, supermarkets, institutions, etc.
 
 We think that every person each individual should strive to contribute in his own way to suppress the spread of Covid-19 and putting an end to the pandemic.
 
@@ -29,7 +29,7 @@ To train a deep learning model to classify whether a person is wearing a mask or
 * not wearing a mask_old
 * not wearing a mask_young
 
-One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that was created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
+One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that were created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
@@ -44,7 +44,7 @@ The images used were real images of faces wearing masks and faces without masks.
 _____________________________________________________________________________________
 - Dataset Preparation  
 
-We expand the size of a training dataset by creating modified versions of images in the dataset 
+We expand the size of a training dataset by creating modified versions of images in the dataset. 
 Dataset was divided on train 80% /test 10% /valid 10% folders with python code   
 with use split-folder library  
 ```
@@ -67,8 +67,8 @@ ________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
 Best results were achieved with DenseNet-169 model trained in ImageNet  - 100 epoch; Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
 
-The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%.
-Other, also important reason for choosing this model, was the fact that this model showed best result at the very relevant metrics, recall and precision.
+The experimental results show that transfer learning can achieve very good results in a small dataset, and the final accuracy of face mask detection is 96,98%.
+Another, and also an important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision.
 
 #### :key: Results
 
