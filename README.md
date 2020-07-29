@@ -54,7 +54,7 @@ split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1)
 ## Phase 2 : Training the model
 - Research about neural networks  
 
-To solve this problem, we needed to try several image classifiers that classify one of four categories. To make this classifier, we used pre-trained CNN
+To solve this problem, we needed to try several image classifiers that classify one of four categories. To construct this classifier, we used pre-trained CNN.
 The best results are as follows:
 
 | Model         | Epochs        | Test Accuracy|      
@@ -64,7 +64,7 @@ The best results are as follows:
 | DenseNet-169  | 100           | 96.98%       | 
 __________________________________________________________________________________________________
 ### Compose neural network architectures  
-Best results was achieved with DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
+Best results were achieved with DenseNet-169 model trained in ImageNet  - 100 epoch; Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
 
 The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%.
 Other, also important reason for choosing this model, was the fact that this model showed best result at the very relevant metrics, recall and precision.
