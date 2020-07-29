@@ -11,7 +11,7 @@ Face masks are crucial in minimizing the spread of Covid-19 and are also compuls
 
 We think that every person each individually should strive to contribute in his own way to suppress the spread of Covid-19, and putting an end to the pandemic.
 
-Well, this is our way of contribution :smile:.
+Well, this is our way of contribution :smile:
 
 ### Demo
 __________________________________________________________________________
@@ -19,7 +19,7 @@ __________________________________________________________________________
 :-------------------------:|:-------------------------:
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 
-## Project was divided in 3 Phases:
+## The project was divided in 3 Phases:
 ## Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
@@ -29,7 +29,7 @@ To train a deep learning model to classify whether a person is wearing a mask or
 * not wearing a mask_old
 * not wearing a mask_young
 
-One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that was created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real atuhentic dataset and we are very proud for the effort.
+One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that was created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of 2940 images belonging to four classes in four folders:
@@ -51,10 +51,12 @@ import split_folders
 split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
 ```
 
-## Phase 2 : Training
+## Phase 2 : Training the model
 - Research about neural networks  
 
-To solve this problem, we propose a method for classification through transfer learning with several Keras models. 
+To solve this problem, we needed to try several image classifiers that classify one of four categories. To make this classifier, we used pre-trained CNN
+The best results are as follows:
+
 | Model         | Epochs        | Test Accuracy|      
 | ------------- | ------------- | -------------|
 | MobileNetV2   | 50            | 91.00%
@@ -63,7 +65,10 @@ To solve this problem, we propose a method for classification through transfer l
 __________________________________________________________________________________________________
 ### Compose neural network architectures  
 Best results was achieved with DenseNet-169 model trained in ImageNet  - 100 epoch  Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
-The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%
+
+The experimental results show that transfer learning can achieve very good results in small dataset, and the final accuracy of face mask detection is 96,98%.
+Other, also important reason for choosing this model, was the fact that this model showed best result at the very relevant metrics, recall and precision.
+
 | Class         | precision     | recall       | f1-score    |     
 | ------------- | ------------- | -------------|------------ |
 | Mask_Old      | 0.96          | 0.94         |   0.95      |
