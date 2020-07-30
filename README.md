@@ -32,7 +32,7 @@ To train a deep learning model to classify whether a person is wearing a mask or
 One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that were created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
-This dataset consists of ## 2940 ## images belonging to four classes in four folders:
+This dataset consists of **2940** images belonging to four classes in four folders:
 
 | dataset         | Young       | Old          | Total     |      
 | -------------   | ------------| -------------|-----------|
@@ -45,7 +45,7 @@ ________________________________________________________________________________
 - Dataset Preparation  
 
 We expand the size of a training dataset by creating modified versions of images in the dataset. 
-Dataset was divided on train 80% /test 10% /valid 10% folders with python code   
+Dataset was divided on **train 80% /test 10% /valid 10%** folders with python code   
 with use of split-folder library  
 ```
 import split_folders
@@ -65,9 +65,9 @@ The best results are as follows:
 | DenseNet-169  | 100           | 96.98%       | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
-Best results were achieved with DenseNet-169 model trained in ImageNet  - 100 epoch; Accuracy 96,98%  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
+Best results were achieved with **DenseNet-169 model** trained in ImageNet  - 100 epoch; *Accuracy 96,98%*  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
 
-The experimental results show that transfer learning can achieve very good results in a small dataset, and the final accuracy of face mask detection is 96,98%.
+The experimental results show that *transfer learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is **96,98%**.
 Another, and also an important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision.
 
 #### :key: Results
