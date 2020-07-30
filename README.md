@@ -51,14 +51,14 @@ with use of split-folder library
 import split_folders
 split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
 ```
-
+Clases ratio by folders:
 |Dataset  |mask_old     |nomask_old  |mask_young     |nomask_young   |Total     |%     |
 |-----    | -----       | -----      |  -----        |  -----        | -----    |----- |
-|Train	  |551	        |579	     |620	     |604	     |2354	|80%   |
-|Valid	  |68	        |72	     |77	     |75	     |292	|10%   |
-|Test	  |70	        |73	     |78	     |77	     |298	|10%   |
-|Total	  |689	        |724	     |775	     |756	     |2944	| /    |
-|%	  |23%	        |25%	     |26%	     |26%	     |	/       | /    |
+|Train	  |551	        |579	     |620	     |604	     |2354	|**80%**   |
+|Valid	  |68	        |72	     |77	     |75	     |292	|**10%**   |
+|Test	  |70	        |73	     |78	     |77	     |298	|**10%**   |
+|Total	  |689	        |724	     |775	     |756	     |2944	|     |
+|%	  |23%	        |25%	     |26%	     |26%	     |	       |    |
 
 
 ## :muscle: Phase 2 : Training the model
