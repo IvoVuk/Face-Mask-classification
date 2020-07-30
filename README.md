@@ -62,7 +62,7 @@ The best results are as follows:
 | ------------- | ------------- | -------------|
 | MobileNetV2   | 50            | 91.00%
 | Xception - Used Data Augumentation     | 100           | 95.97%
-| **DenseNet-169  | 100           | 96.98%       | 
+| **DenseNet-169  | 100           | 96.98%**      | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
 Best results were achieved with **DenseNet-169 model** trained in ImageNet  - 100 epoch; *Accuracy 96,98%*  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
