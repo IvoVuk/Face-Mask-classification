@@ -38,7 +38,7 @@ This dataset consists of **2940 images** belonging to four classes in four folde
 | -------------   | ------------| -------------|-----------|
 | with_mask       | 775         | 685          | 1,460     |
 | without_mask    | 756         | 724          | 1,480     |   
-| Total           |1,531        |1,409         | 2,940     |
+| Total           |1,531        |1,409         | **2,940**    |
 
 The images used were real images of faces wearing masks and faces without masks.
 _____________________________________________________________________________________
@@ -62,7 +62,7 @@ The best results are as follows:
 | ------------- | ------------- | -------------|
 | MobileNetV2   | 50            | 91.00%
 | Xception - Used Data Augumentation     | 100           | 95.97%
-| DenseNet-169  | 100           | 96.98%       | 
+| **DenseNet-169  | 100           | 96.98%       | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
 Best results were achieved with **DenseNet-169 model** trained in ImageNet  - 100 epoch; *Accuracy 96,98%*  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
