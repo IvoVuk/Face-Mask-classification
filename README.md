@@ -32,7 +32,7 @@ To train a deep learning model to classify whether a person is wearing a mask or
 One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that were created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
-This dataset consists of 2940 images belonging to four classes in four folders:
+This dataset consists of ## 2940 ## images belonging to four classes in four folders:
 
 | dataset         | Young       | Old          | Total     |      
 | -------------   | ------------| -------------|-----------|
