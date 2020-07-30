@@ -32,13 +32,13 @@ To train a deep learning model to classify whether a person is wearing a mask or
 One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that were created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
-This dataset consists of **2940 images** belonging to four classes in four folders:
+This dataset consists of **2944 images** belonging to four classes in four folders:
 
 | dataset         | Young       | Old          | Total     |      
 | -------------   | ------------| -------------|-----------|
-| with_mask       | 775         | 685          | 1,460     |
+| with_mask       | 775         | 689          | 1,464     |
 | without_mask    | 756         | 724          | 1,480     |   
-| Total           |1,531        |1,409         | **2,940**    |
+| Total           |1,531        |1,409         | **2,944**    |
 
 The images used were real images of faces wearing masks and faces without masks.
 _____________________________________________________________________________________
@@ -51,6 +51,15 @@ with use of split-folder library
 import split_folders
 split_folders.ratio('data_final', output="output", seed=1337, ratio=(.8, .1, .1))
 ```
+	|mask_old	|nomask_old	|mask_young	|nomask_young	|Total	|%  |
+  | -----  | -----   | -----  |  -----  |  ----- | -----  |
+|Train	|551	|579	|620	|604	|2354	|80%  |
+|Valid	|68	|72	|77	|75	|292	|10%  |
+|Test	70	73	78	77	298	10%
+|Total	|689	|724	|775	|756	|2944	| /  |
+|%	|23%	|25%	|26%	|26%	|	/  | /  |
+
+
 
 ## :muscle: Phase 2 : Training the model
 - Research about neural networks  
