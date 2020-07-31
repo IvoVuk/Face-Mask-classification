@@ -44,6 +44,8 @@ The images used were real images of faces wearing masks and faces without masks.
 
 ### Preview of dataset
 
+| Class     | #1| #2          | #3     | #4| #5 |  
+| -------------   | ------------| -------------|-----------|-----------|-------------|
 |Mask Young   |![](Prediction/6.jpg)|![](Prediction/7.jpg)|![](Prediction/8.jpg)|![](Prediction/9.jpg)|![](Prediction/10.jpg)|
 |NoMask Young |![](Prediction/11.jpg)|![](Prediction/12.jpg)|![](Prediction/13.jpg)|![](Prediction/14.jpg)|![](Prediction/15.jpg)|
 |Mask Old     |![](Prediction/1.jpg)|![](Prediction/2.jpg)|![](Prediction/3.jpg)|![](Prediction/4.jpg)|![](Prediction/5.jpg)|
