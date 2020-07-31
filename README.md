@@ -22,7 +22,7 @@ __________________________________________________________________________
 ![MaskYoung](Prediction/MaskOld.jpg)  |  ![NoMaskYoung](Prediction/NoMaskOld.jpg) 
 
 ## The project implementation was divided in 3 Phases:
-## :open_file_folder: Phase 1 : Dataset design (Gathering Data and Data pre-processing) (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
+## :open_file_folder: Phase 1 : Dataset creation (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
 In order to train a deep-learning model to classify whether a person is wearing a mask or not and whether he/she is young or old, we needed an appropriate dataset with balanced distribution of images for the four classes:
@@ -34,13 +34,13 @@ In order to train a deep-learning model to classify whether a person is wearing 
 One of the challenges we met doing this project was collecting the data. We decided to collect images that we were supposed to take without using ready-made data and datasets that were created for facial recognition purposes. We have done that, so our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real and authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
-This dataset consists of **2944 images** belonging to four classes in four folders:
+This dataset consists of **2,944 images** belonging to four classes in four folders:
 
 | dataset         | Young       | Old          | Total     |      
 | -------------   | ------------| -------------|-----------|
-| with_mask       | 775         | 689          | 1,464     |
-| without_mask    | 756         | 724          | 1,480     |   
-| Total           |1,531        |1,409         | **2,944** |
+| **with_mask**       | 775         | 689      | 1,464     |
+| **without_mask**    | 756         | 724      | 1,480     |   
+| **Total**           |1,531        |1,409     | **2,944** |
 
 The images used were real images of faces wearing masks and faces without masks.
 
@@ -120,11 +120,11 @@ This project was designed as a final assignment after taking a two-semesters lon
 
 Team members:
 
-* Ivan Vukelikj [Ivan Vukelic] (https://github.com/IvoVuk)
-* Teodora Zhivkovikj [Teodora Zhivkovikj] (https://github.com/TeicZivkovic)
-* Angela Vasovska [Angela Vasovska] (https://github.com/AngelaVasovska)
-* Dimitar Mihajlov [Dimitar Mihajlov] (https://github.com/DimitarDMM)
-* Nikola Nastev [Nikola Nastev] (https://github.com/nikolanastev)
+* [Ivan Vukelic](https://github.com/IvoVuk)
+* [Teodora Zhivkovikj](https://github.com/TeicZivkovic)
+* [Angela Vasovska](https://github.com/AngelaVasovska)
+* [Dimitar Mihajlov](https://github.com/DimitarDMM)
+* [Nikola Nastev](https://github.com/nikolanastev)
 
 ### :star: Extra credits
 
