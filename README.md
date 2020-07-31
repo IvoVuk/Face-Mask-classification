@@ -18,6 +18,9 @@ __________________________________________________________________________
 | Mask Young prediction       |  No Mask Young prediction   |
 :-------------------------:|:-------------------------:
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
+| Mask Old prediction       |  No Mask Old prediction   |
+:-------------------------:|:-------------------------:
+![MaskYoung](Prediction/MaskOld.jpg)  |  ![NoMaskYoung](Prediction/NoMaskOld.jpg) 
 
 ## The project was divided in 3 Phases:
 ## :open_file_folder: Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
