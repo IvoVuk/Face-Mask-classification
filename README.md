@@ -19,7 +19,6 @@ __________________________________________________________________________
 :-------------------------:|:-------------------------:
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 | Mask Old prediction       |  No Mask Old prediction   |
-:-------------------------:|:-------------------------:
 ![MaskYoung](Prediction/MaskOld.jpg)  |  ![NoMaskYoung](Prediction/NoMaskOld.jpg) 
 
 ## The project was divided in 3 Phases:
