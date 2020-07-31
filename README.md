@@ -108,7 +108,10 @@ ________________________________________________________________________________
 ## :rocket: Phase 3 : Detection in real-time video streams
 
 We use our model in real-time video streams as FaceMask detector 
-![MaskYoung](Prediction/FaceMask-Detection.gif)  
+| Mask/NoMask Young       |  Mask/NoMask Old   |
+:-------------------------:|:-------------------------:
+![MaskYoung](Prediction/FaceMask-Detection.gif)   |  ![MaskYoung](FaceMask-Detection2.gif) 
+ 
 -  Files contained in  "FaceMask_detect_video.zip" (avaliable for download [here](https://github.com/IvoVuk/Face-Mask-classification/blob/master/FaceMask_detect_video.zip))
 
 ### :clap: Authors
