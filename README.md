@@ -13,7 +13,7 @@ We think that every person each individual should strive to contribute in his ow
 
 Well, this is our way of contribution :smile:
 
-### Demo
+### Demo (Screenshot from live video)
 __________________________________________________________________________
 | Mask Young prediction       |  No Mask Young prediction   |
 :-------------------------:|:-------------------------:
