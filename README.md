@@ -47,10 +47,10 @@ The images used were real images of faces wearing masks and faces without masks.
 __________________________________________________________________________
 | Class                    |                           |                   |                 |             |             |
 :-------------------------:|:-------------------------:|:-----------------:|:---------------:|:-----------:|:-----------:|
-|Mask Young   |![](MaskYoung/1.jpg)|![](MaskYoung/2.jpg)|![](MaskYoung/3.jpg)|![](MaskYoung/4.jpg)|![](MaskYoung/5.jpg)|
-|NoMask Young |![](NoMaskYoung/1.jpg)|![](NoMaskYoung/2.jpg)|![](NoMaskYoung/3.jpg)|![](NoMaskYoung/4.jpg)|![](NoMaskYoung/5.jpg)|
-|Mask Old      |![](MaskOld/1.jpg)|![](MaskOld/2.jpg)|![](MaskOld/3.jpg)|![](MaskOld/4.jpg)|![](MaskOld/5.jpg)|
-|NoMask Old    |![](NoMaskOld/1.jpg)|![](NoMaskOld/2.jpg)|![](NoMaskOld/3.jpg)|![](NoMaskOld/4.jpg)|![](NoMaskOld/5.jpg)|
+|Mask Young   |![](Prediction/6.jpg)|![](Prediction/7.jpg)|![](Prediction/8.jpg)|![](Prediction/9.jpg)|![](Prediction/10.jpg)|
+|NoMask Young |![](Prediction/11.jpg)|![](Prediction/12.jpg)|![](Prediction/13.jpg)|![](Prediction/14.jpg)|![](Prediction/15.jpg)|
+|Mask Old      |![](Prediction/1.jpg)|![](Prediction/2.jpg)|![](Prediction/3.jpg)|![](Prediction/4.jpg)|![](Prediction/5.jpg)|
+|NoMask Old    |![](Prediction/16.jpg)|![](Prediction/17.jpg)|![](Prediction/18.jpg)|![](Prediction/19.jpg)|![](Prediction/20.jpg)|
 _____________________________________________________________________________________
 - Dataset Preparation  
 
