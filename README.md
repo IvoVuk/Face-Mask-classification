@@ -1,37 +1,37 @@
 # Face-Mask-classification [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
--  using (OpenCV, Keras/TensorFlow and Deep Learning)
+- Tech/Fameworks used: OpenCV, Keras/TensorFlow, OpenCV and Deep Learning (look at the requirements.txt file)
 
-### Model that will recognize whether a person wears a mask on his face or not / young or old person 
-- The goal of our project was to create a robust classifier, to collect data and prepare custom dataset,
-- We built a model that recognizes whether a person wear a mask on his face or not,
-- Furthermore, the model recognizes whether a person is young or old
+### Model that recognizes whether a person young or old wears a mask on his/hers face  
+- The goal of our project was to create a robust classifier with four defined classes, to collect data and prepare a custom dataset;
+- After designing a well-balanced dataset that will allow no bias in the classification task, we have built a model that recognizes whether a person wears a mask on his/hers face or not;
+- Furthermore, the model recognizes as well whether the person is young or old;
 
 ### :innocent: Motivation
-Face masks are crucial in minimizing the spread of Covid-19 and are also compulsory in public places in many countries. The prolonged pandemic imposes new way of everyday life. Since monitoring compliance is expensive, this project can be deployed further for real-time masked/unmasked face recognition in a surveillance system to help the regulation of wearing masks in public places, such as shopping malls, supermarkets, institutions, etc.
+Wearing a mask is considered to be an important tool in slowing and preventing the spread of COVID-19, especially if used universally within communities. There is increasing evidence that masks/cloth coverings help prevent people who have COVID-19 from spreading the virus to others. The advice and recomendations from international authorites and many governments vary from voluntaritly to compulsory wearing them in public places. This means that the prolonged pandemic imposes new way of everyday life and learning new habbits. Monitoring compliance at public places is an expensive operation. Thus, we believe that by providing this code as resource that can be further deployed for real-time masked-face recognition in a surveillance system will help in tracking the behavior of mask-wearing in public places, such as shopping malls, supermarkets, institutions, etc.
 
-We think that every person each individual should strive to contribute in his own way to suppress the spread of Covid-19 and putting an end to the pandemic.
+We strongly believe that every individual should strive to contribute in his/hers own capacity in order to suppress the spread of Covid-19 and help in putting an end to the pandemic.
 
 Well, this is our way of contribution :smile:
 
 ### Demo (Screenshot from live video)
 __________________________________________________________________________
 | Mask Young prediction       |  No Mask Young prediction   |
-:-------------------------:|:-------------------------:
+:----------------------------:|:----------------------------:
 ![MaskYoung](Prediction/MaskYoung.jpg)  |  ![NoMaskYoung](Prediction/NoMaskYoung.jpg) 
 | Mask Old prediction       |  No Mask Old prediction   |
 ![MaskYoung](Prediction/MaskOld.jpg)  |  ![NoMaskYoung](Prediction/NoMaskOld.jpg) 
 
-## The project was divided in 3 Phases:
-## :open_file_folder: Phase 1 : Data collection (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
+## The project implementation was divided in 3 Phases:
+## :open_file_folder: Phase 1 : Dataset design (Gathering Data and Data pre-processing) (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
 - General Project Research
 
-To train a deep learning model to classify whether a person is wearing a mask or not and whether is young or old, we need to find an appropriate dataset with balanced amount of images for four classes:
+In order to train a deep-learning model to classify whether a person is wearing a mask or not and whether he/she is young or old, we needed an appropriate dataset with balanced distribution of images for the four classes:
 * wearing a mask_old
 * wearing a mask_young
 * not wearing a mask_old
 * not wearing a mask_young
 
-One of the more difficult tasks we had with this project was collecting the data. We decided to collect images that we will all take without using ready-made data and datasets that were created for facial recognition purposes. We did that, that is, our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real authentic dataset and we are very proud of the team effort.
+One of the challenges we met doing this project was collecting the data. We decided to collect images that we were supposed to take without using ready-made data and datasets that were created for facial recognition purposes. We have done that, so our database contains 80% of the real images that we as a team took. Artificial masks were not applied, so this is a real and authentic dataset and we are very proud of the team effort.
 _________________________________________________________________________________
 - Dataset Collection  
 This dataset consists of **2944 images** belonging to four classes in four folders:
@@ -40,7 +40,7 @@ This dataset consists of **2944 images** belonging to four classes in four folde
 | -------------   | ------------| -------------|-----------|
 | with_mask       | 775         | 689          | 1,464     |
 | without_mask    | 756         | 724          | 1,480     |   
-| Total           |1,531        |1,409         | **2,944**    |
+| Total           |1,531        |1,409         | **2,944** |
 
 The images used were real images of faces wearing masks and faces without masks.
 
@@ -55,8 +55,8 @@ The images used were real images of faces wearing masks and faces without masks.
 _____________________________________________________________________________________
 - Dataset Preparation  
 
-We expand the size of a training dataset by creating modified versions of images in the dataset. 
-Dataset was divided on **train 80% /test 10% /valid 10%** folders with python code   
+We have expanded the size of a training dataset by creating modified versions of images in the dataset. 
+The dataset was divided on **train 80% /test 10% /valid 10%** folders with python code   
 with use of split-folder library  
 ```
 import split_folders
@@ -85,10 +85,10 @@ The best results are as follows:
 | DenseNet-169  | 100           | 96.98%      | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
-Best overall results were achieved with transfer learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable for download [here](https://drive.google.com/file/d/1ocCGr-QxrcCeN1Bj8F3lII9KVyf7sd96/view?usp=sharing)) 
+Best overall results were achieved with transfer-learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable for download [here](https://drive.google.com/file/d/1ocCGr-QxrcCeN1Bj8F3lII9KVyf7sd96/view?usp=sharing)) 
 
-The experimental results show that *transfer learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is **96,98%**.
-Another, and also an important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision and good results on real video stream.
+The experimental results show that *transfer-learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is **96,98%**.
+Another and also important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision and good results on real video stream.
 
 #### :key: Results
 
@@ -116,16 +116,17 @@ We use our model in real-time video streams as FaceMask detector
 -  Files contained in  "FaceMask_detect_video.zip" (avaliable for download [here](https://github.com/IvoVuk/Face-Mask-classification/blob/master/FaceMask_detect_video.zip))
 
 ### :clap: Authors
-This project is to fulfill final assignment of Brainster Data Science Academy
+This project was designed as a final assignment after taking a two-semesters long Data Science course at the [Brainster Data Science Academy](https://brainster.co/).
 
 Team members:
 
-* Ivan Vukelikj
-* Teodora Zhivkovikj
-* Angela Vasovska
-* Dimitar Mihajlov
-* Nikola Nastev
+* Ivan Vukelikj [Ivan Vukelic] (https://github.com/IvoVuk)
+* Teodora Zhivkovikj [Teodora Zhivkovikj] (https://github.com/TeicZivkovic)
+* Angela Vasovska [Angela Vasovska] (https://github.com/AngelaVasovska)
+* Dimitar Mihajlov [Dimitar Mihajlov] (https://github.com/DimitarDMM)
+* Nikola Nastev [Nikola Nastev] (https://github.com/nikolanastev)
 
 ### :star: Extra credits
 
 This project was supervized by [Kiril Cvetkov](https://github.com/kirilcvetkov92)
+ 
