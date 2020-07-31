@@ -79,30 +79,28 @@ The best results are as follows:
 | Model         | Epochs        | Test Accuracy|      
 | ------------- | ------------- | -------------|
 | MobileNetV2   | 50            | 91.00%
-| Xception - Used Data Augumentation     | 100           | 95.97%
-| **DenseNet-169**  | **100**           | **96.98%**      | 
+| **Xception - Used Data Augumentation**     | **100**           | **95.97%**
+| DenseNet-169  | 100           | 96.98%      | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
-Best results were achieved with **DenseNet-169 model** trained in ImageNet  - 100 epoch; *Accuracy 96,98%*  (avaliable for download [here](https://drive.google.com/file/d/1br82NTJzuguYaARf9DP5Z4tO9ai1rH5R/view?usp=sharing)) 
+Best overall results were achieved with transfer learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable for download [here](https://drive.google.com/file/d/1ocCGr-QxrcCeN1Bj8F3lII9KVyf7sd96/view?usp=sharing)) 
 
 The experimental results show that *transfer learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is **96,98%**.
-Another, and also an important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision.
+Another, and also an important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision and good results on real video stream.
 
 #### :key: Results
 
 | Class         | precision     | recall       | f1-score    |     
 | ------------- | ------------- | -------------|------------ |
-| Mask_Old      | 0.96          | 0.94         |   0.95      |
-| Mask_Young    | 0.95          | 0.96         |   0.95      |
-| NoMask_Old    | 0.97          | 0.99         |   0.98      |
-| NoMask_Young  | 0.99          | 0.99         |   0.99      |
-| micro avg     | 0.97          | 0.97         |   0.97      |
-| macro avg     | 0.97          | 0.97         |   0.97      |
-| weighted avg  | 0.97          | 0.97         |   0.97      |
-| samples avg   | 0.97          | 0.97         |   0.97      |
-___________________________________________________________________________________________________
-### Fine tunning the model
-The model was fine tunned with **GlobalAveragePooling2D** which acts like regularizer.  
+| Mask_Old      | 0.94          | 0.99         |   0.96      |
+| Mask_Young    | 0.95          | 0.95         |   0.95      |
+| NoMask_Old    | 0.97          | 0.96         |   0.97      |
+| NoMask_Young  | 0.97          | 0.95         |   0.96      |
+| micro avg     | 0.96          | 0.96         |   0.96      |
+| macro avg     | 0.96          | 0.96         |   0.96      |
+| weighted avg  | 0.96          | 0.96         |   0.96      |
+| samples avg   | 0.96          | 0.96         |   0.96      |
+ 
 ___________________________________________________________________________________________________
 
 ## :rocket: Phase 3 : Detection in real-time video streams
