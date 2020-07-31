@@ -41,6 +41,16 @@ This dataset consists of **2944 images** belonging to four classes in four folde
 | Total           |1,531        |1,409         | **2,944**    |
 
 The images used were real images of faces wearing masks and faces without masks.
+
+### Preview of dataset
+
+__________________________________________________________________________
+| Class                    |                           |                   |                 |             |             |
+:-------------------------:|:-------------------------:|:-----------------:|:---------------:|:-----------:|:-----------:|
+|Mask Young   |![](MaskYoung/1.jpg)|![](MaskYoung/2.jpg)|![](MaskYoung/3.jpg)|![](MaskYoung/4.jpg)|![](MaskYoung/5.jpg)|
+|NoMask Young |![](NoMaskYoung/1.jpg)|![](NoMaskYoung/2.jpg)|![](NoMaskYoung/3.jpg)|![](NoMaskYoung/4.jpg)|![](NoMaskYoung/5.jpg)|
+|Mask Old      |![](MaskOld/1.jpg)|![](MaskOld/2.jpg)|![](MaskOld/3.jpg)|![](MaskOld/4.jpg)|![](MaskOld/5.jpg)|
+|NoMask Old    |![](NoMaskOld/1.jpg)|![](NoMaskOld/2.jpg)|![](NoMaskOld/3.jpg)|![](NoMaskOld/4.jpg)|![](NoMaskOld/5.jpg)|
 _____________________________________________________________________________________
 - Dataset Preparation  
 
