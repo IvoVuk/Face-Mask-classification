@@ -128,5 +128,5 @@ Team members:
 
 ### :star: Extra credits
 
-This project was supervized by [Kiril Cvetkov](https://github.com/kirilcvetkov92)
+This project was supervised by [Kiril Cvetkov](https://github.com/kirilcvetkov92)
  
