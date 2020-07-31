@@ -110,8 +110,8 @@ ________________________________________________________________________________
 We use our model in real-time video streams as FaceMask detector 
 | Mask/NoMask Young       |  Mask/NoMask Old   |
 :-------------------------:|:-------------------------:
-![MaskYoung](Prediction/FaceMask-Detection.gif=400x)   |  ![MaskYoung](FaceMask-Detection2.gif) 
-<img src="Prediction/FaceMask-Detection.gif" width="200">
+<img src="Prediction/FaceMask-Detection.gif" width="350">  |  <img src="FaceMask-Detection2.gif" width="350">
+
  
 -  Files contained in  "FaceMask_detect_video.zip" (avaliable for download [here](https://github.com/IvoVuk/Face-Mask-classification/blob/master/FaceMask_detect_video.zip))
 
