@@ -22,7 +22,7 @@ __________________________________________________________________________
 ![MaskYoung](Prediction/MaskOld.jpg)  |  ![NoMaskYoung](Prediction/NoMaskOld.jpg) 
 
 ## The project implementation was divided in 3 Phases:
-## :open_file_folder: Phase 1 : Dataset creation (dataset avaliable for download [here](https://drive.google.com/file/d/1_Aj3mrR_t1y2gpOGhz1S_jHa6CXnP1ZL/view?usp=sharing))
+## :open_file_folder: Phase 1 : Dataset creation (dataset avaliable upon request)
 - General Project Research
 
 In order to train a deep-learning model to classify whether a person is wearing a mask or not and whether he/she is young or old, we needed an appropriate dataset with balanced distribution of images for the four classes:
@@ -85,7 +85,7 @@ The best results are as follows:
 | DenseNet-169  | 100           | 96.98%      | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
-Best overall results were achieved with transfer-learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable for download [here](https://drive.google.com/file/d/1ocCGr-QxrcCeN1Bj8F3lII9KVyf7sd96/view?usp=sharing)) 
+Best overall results were achieved with transfer-learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable upon request) 
 
 The experimental results show that *transfer-learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is 95,97%.
 Another and also important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision and good results on real video stream.
