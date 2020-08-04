@@ -85,7 +85,7 @@ The best results are as follows:
 | DenseNet-169  | 100           | 96.98%      | 
 __________________________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
-Best overall results were achieved with transfer-learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable upon request) 
+Best overall results were achieved with transfer-learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (download avaliable upon request) 
 
 The experimental results show that *transfer-learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is 95,97%.
 Another and also important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision and good results on real video stream.
