@@ -87,7 +87,7 @@ ________________________________________________________________________________
 ### :bulb: Compose neural network architectures  
 Best overall results were achieved with transfer-learning using pre-trained **Xception** an re-train it on our data in ImageNet  - 100 epoch; *Accuracy 95,97%*  (avaliable for download [here](https://drive.google.com/file/d/1ocCGr-QxrcCeN1Bj8F3lII9KVyf7sd96/view?usp=sharing)) 
 
-The experimental results show that *transfer-learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is **96,98%**.
+The experimental results show that *transfer-learning* can achieve very good results in a small dataset, and the final accuracy of face mask detection is 95,97%.
 Another and also important reason for choosing this model, was the fact that this model showed the best results at the very relevant metrics, recall, and precision and good results on real video stream.
 
 #### :key: Results
@@ -113,7 +113,8 @@ We use our model in real-time video streams as FaceMask detector
 <img src="Prediction/FaceMask-Detection.gif" width="350">  |  <img src="Prediction/FaceMask-Detection2.gif" width="300">
 
  
--  Files contained in  "FaceMask_detect_video.zip" (avaliable for download [here](https://github.com/IvoVuk/Face-Mask-classification/blob/master/FaceMask_detect_video.zip))
+- Use "FaceMask_detect_video.py", copy trained model in root folder and run the code.
+
 
 ### :clap: Authors
 This project was designed as a final assignment after taking a two-semesters long Data Science course at the [Brainster Data Science Academy](https://brainster.co/).
